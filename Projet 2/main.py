@@ -12,8 +12,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 # Importation de mes fonctions
-from Fonctions.fonctions import convert_to_sqlite_and_analyze, check_missing_and_plot, svm_classification, add_mean_column, double_cross_validation, perform_stats, plot_stats
-
+from Fonctions.fonctions import convert_to_sqlite_and_analyze, check_missing_and_plot, svm_classification, add_mean_column, double_cross_validation, perform_stats, plot_stats, log_n,tri_liste, select_values_above_threshold
 from Fonctions.classe import Preprocessing
 
 data = pd.read_csv('JulieDandrimont_donnees_psy3019-H23_20230212_Pandemic.csv', index_col=0)
