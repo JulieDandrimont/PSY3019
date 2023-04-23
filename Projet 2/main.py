@@ -16,7 +16,7 @@ from Fonctions.fonctions import convert_to_sqlite_and_analyze, check_missing_and
 
 from Fonctions.classe import Preprocessing
 
-data = pd.read_csv('JulieDandrimont_données_psy3019-H23_20230212_Pandemic.csv', index_col=0)
+data = pd.read_csv('JulieDandrimont_donnees_psy3019-H23_20230212_Pandemic.csv', index_col=0)
 data = data.replace(' ', np.nan)
 preprocessor = Preprocessing(data)
 cleaned_data = preprocessor.preprocess(threshold=2.5)
