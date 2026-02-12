@@ -100,6 +100,6 @@ Assurez-vous que le fichier CSV et le dossier `Fonctions/` se trouvent dans le m
 
 ---
 
-## Auteure
+## Auteur
 
 **Julie Dandrimont** — PSY3019, Hiver 2023
